@@ -1,0 +1,5 @@
+# to let the linter read these directives
+
+directive @mongo(
+  name: String!
+) on FIELD_DEFINITION
